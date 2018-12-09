@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "953280664504",
+    "firebase_url": "https://dlsu-find-a-roomie.firebaseio.com",
+    "project_id": "dlsu-find-a-roomie",
+    "storage_bucket": "dlsu-find-a-roomie.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:953280664504:android:6be5fd3e1b807c11",
+        "android_client_info": {
+          "package_name": "com.example.clpagaduan.dlsu_find_a_roomie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "953280664504-926ubvh44ck92tc9lch20rdogsgp5c7h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRS3RjrQSnYkaWoDVrIwHoMFHEBpcV1hA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:953280664504:android:06620651738a8833",
+        "android_client_info": {
+          "package_name": "com.example.g301.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "953280664504-926ubvh44ck92tc9lch20rdogsgp5c7h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRS3RjrQSnYkaWoDVrIwHoMFHEBpcV1hA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
