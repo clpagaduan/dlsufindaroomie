@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/condoName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="W.H. Taft"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/roommateGender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Male Roommate" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Details:" />
+
+        <TextView
+            android:id="@+id/bedNum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-2 Beds"
+            android:textAlignment="viewStart" />
+
+        <TextView
+            android:id="@+id/bathNum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-1 Bath" />
+
+        <TextView
+            android:id="@+id/amenities"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-Amenities: indoor pool, access to gym" />
+
+        <TextView
+            android:id="@+id/rent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-Monthly Rent: 5,000 excluding utility bills" />
+
+        <Button
+            android:id="@+id/bookRoombtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BOOK ROOM" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ROOM STATUS:" />
+
+        <TextView
+            android:id="@+id/roomStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Available" />
+
+        <Button
+            android:id="@+id/addWishlistbtn"
+            android:layout_width="164dp"
+            android:layout_height="wrap_content"
+            android:text="Add to Wishlist" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
