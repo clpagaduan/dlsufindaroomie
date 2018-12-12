@@ -13,13 +13,23 @@ public class SignUp_page extends AppCompatActivity {
     TextView email;
     TextView username;
     TextView password;
-    Button back;
-    Button submit;
-    
+    Button backbtn;
+    Button submitbtn;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_up_page);
+
+        lastName = findViewById(R.id.lastName);
+        firstName = findViewById(R.id.firstName);
+        gender = findViewById(R.id.gender);
+        email = findViewById(R.id.email);
+        username = findViewById(R.id.username);
+        password = findViewById(R.id.password);
+        backbtn = findViewById(R.id.backbtn);
+        submitbtn = findViewById(R.id.submitbtn);
+
     }
 
 }
