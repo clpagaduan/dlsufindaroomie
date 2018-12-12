@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!--THIS LIST MUST UPDATE WHEN A NEW ROOM HAS BEEN POSTED-->
+    <string-array name="sections">
+        <item >MALE ROOMMATE: W.H. Taft - 2 Beds, 1 Bath</item>
+        <item >FEMALE ROOMMATE: Torre Lorenzo - 2 Beds, 1 Bath</item>
+        <item >MALE/FEMALE ROOMMATE: Manila Residences I - 3 Beds, 1 Bath</item>
+        <item >FEMALE ROOMMATE: W.H. Taft - 2 Beds, 1 Bathl</item>
+        <item >MALE ROOMMATE: Archers - 3 Beds, 2 Baths</item>
+        <item >MALE ROOMMATE: Archers - 2 Beds, 1 Bath</item>
+        <item >FEMALE ROOMMATE: W.H. Taft - 2 Beds, 1 Bath</item>
+        <item >MALE ROOMMATE: Manila Residences II - 2 Beds, 1 Bath</item>
+        <item >FEMALE ROOMMATE: Torre Lorenzo - 2 Beds, 1 Bath</item>
+        <item >FEMALE ROOMMATE: Archers - 2 Beds, 1 Bath</item>
+        <item >MALE ROOMMATE: 2 Torre - 3 Beds, 1 Bath</item>
+    </string-array>
+</resources>
