@@ -5,6 +5,8 @@ import android.os.Bundle;
 import android.widget.TextView;
 import android.widget.Button;
 
+import com.google.firebase.*;
+
 public class SignUp_page extends AppCompatActivity {
 
     TextView lastName;
@@ -15,6 +17,8 @@ public class SignUp_page extends AppCompatActivity {
     TextView password;
     Button backbtn;
     Button submitbtn;
+
+    private DatabaseReference
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,6 +33,8 @@ public class SignUp_page extends AppCompatActivity {
         password = findViewById(R.id.password);
         backbtn = findViewById(R.id.backbtn);
         submitbtn = findViewById(R.id.submitbtn);
+
+        mDatabase = FirebaseDatabase.getInstance().getReference();
 
     }
 
