@@ -18,6 +18,10 @@
         </activity>
         <activity android:name=".Home" />
         <activity android:name=".SignUp_page"></activity>
+        <activity android:name=".findRoomie"></activity>
+        <activity android:name=".postRoom"></activity>
+        <activity android:name=".bookRoom"></activity>
+        <activity android:name=".ListItemDetail"></activity>
     </application>
 
 </manifest>
