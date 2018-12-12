@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/findRoomiebtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Find A Roomie" />
+
+            <Button
+                android:id="@+id/postRoombtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Post Room" />
+
+            <Button
+                android:id="@+id/myProfilebtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="My Profile" />
+
+        </TableRow>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Please fill up the form below to have your roommate ad posted!"
+                android:textAlignment="center"
+                android:textStyle="italic" />
+
+            <EditText
+                android:id="@+id/condoName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Condominium/Dorm Name"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/bedNum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Number of Beds"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/bathNum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Number of Baths"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/amenities"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Amenities"
+                android:inputType="textMultiLine" />
+
+            <EditText
+                android:id="@+id/rent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Monthly Rent"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/roommateGender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Gender of Roommate"
+                android:inputType="textPersonName" />
+
+            <CheckBox
+                android:id="@+id/termsCheckbox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="I agree to all of FindARoomie's terms and agreements." />
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Submit " />
+        </LinearLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
