@@ -17,11 +17,12 @@
             </intent-filter>
         </activity>
         <activity android:name=".Home" />
-        <activity android:name=".SignUp_page"></activity>
-        <activity android:name=".findRoomie"></activity>
-        <activity android:name=".postRoom"></activity>
-        <activity android:name=".bookRoom"></activity>
-        <activity android:name=".ListItemDetail"></activity>
+        <activity android:name=".SignUp_page" />
+        <activity android:name=".findRoomie" />
+        <activity android:name=".postRoom" />
+        <activity android:name=".bookRoom" />
+        <activity android:name=".ListItemDetail" />
+        <activity android:name=".ProfileActivity"></activity>
     </application>
 
 </manifest>
