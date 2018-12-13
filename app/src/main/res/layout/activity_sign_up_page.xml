@@ -20,6 +20,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" >
 
+                <Button
+                    android:id="@+id/test_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TEST" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
                 <TextView
                     android:id="@+id/signUp"
                     android:layout_width="match_parent"
@@ -141,6 +152,12 @@
                     android:text="Password:"
                     android:textAlignment="center" />
 
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TextView" />
+
                 <EditText
                     android:id="@+id/password"
                     android:layout_width="wrap_content"
@@ -164,6 +181,35 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Submit" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/conditionTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Condition" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/btn_sunny"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sunny" />
+
+                <Button
+                    android:id="@+id/btn_foggy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Foggy" />
             </TableRow>
         </TableLayout>
 
