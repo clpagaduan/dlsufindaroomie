@@ -59,6 +59,20 @@ public class findRoomie extends AppCompatActivity {
         myProfilebtn = findViewById(R.id.myProfilebtn);
 
         listViewRoom = findViewById(R.id.listViewRoom);
+        listViewRoom.setOnItemClickListener(
+                new OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                        System.out.println("Position: " + position + " ID: " + id);
+//                        startActivity(new Intent(getApplicationContext(), bookRoom.class));
+//                        Intent intent = new Intent(getApplicationContext(), bookRoom.class);
+//                        intent.setClass(this, bookRoom.class);
+//                        intent.putExtra("position", position);
+//                        intent.putExtra("id", id);
+//                        findRoomie.this.startActivity(intent);
+                    }
+                }
+        );
 
         roomList = new ArrayList<>();
 

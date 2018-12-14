@@ -22,7 +22,11 @@
         <activity android:name=".postRoom" />
         <activity android:name=".bookRoom" />
         <activity android:name=".ListItemDetail" />
-        <activity android:name=".ProfileActivity"></activity>
+        <activity android:name=".ProfileActivity" />
+        <activity
+            android:name=".NavDrawer"
+            android:label="@string/title_activity_nav_drawer"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
