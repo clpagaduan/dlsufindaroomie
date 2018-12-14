@@ -58,29 +58,61 @@
                 android:hint="Condominium/Dorm Name"
                 android:inputType="textPersonName" />
 
-            <EditText
-                android:id="@+id/bedNum"
+            <TextView
+                android:id="@+id/textView4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:ems="10"
-                android:hint="Number of Beds"
-                android:inputType="number" />
+                android:text="Number of Beds" />
 
-            <EditText
-                android:id="@+id/bathNum"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:hint="Number of Baths"
-                android:inputType="number" />
+            <!--<Spinner-->
+                <!--android:id="@+id/spn_bed"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:entries="@array/num_bed" />-->
 
-            <EditText
-                android:id="@+id/amenities"
+            <Spinner
+                android:id="@+id/spn_bed"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:ems="10"
-                android:hint="Amenities"
-                android:inputType="textMultiLine" />
+                android:entries="@array/num_bed" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Number of Baths" />
+
+            <!--<Spinner-->
+                <!--android:id="@+id/spn_bath"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:entries="@array/num_bath" />-->
+
+
+            <Spinner
+                android:id="@+id/spn_bath"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/num_bath" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Restrictions" />
+
+            <!--<Spinner-->
+                <!--android:id="@+id/spn_gen"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:entries="@array/room_gen" />-->
+
+
+            <Spinner
+                android:id="@+id/spn_gen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/room_gen" />
 
             <EditText
                 android:id="@+id/rent"
@@ -88,15 +120,8 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:hint="Monthly Rent"
-                android:inputType="number" />
+                android:inputType="numberDecimal" />
 
-            <EditText
-                android:id="@+id/roommateGender"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:hint="Gender of Roommate"
-                android:inputType="textPersonName" />
 
             <CheckBox
                 android:id="@+id/termsCheckbox"

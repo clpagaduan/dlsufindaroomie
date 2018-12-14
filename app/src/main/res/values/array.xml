@@ -15,4 +15,28 @@
         <item >FEMALE ROOMMATE: Archers - 2 Beds, 1 Bath</item>
         <item >MALE ROOMMATE: 2 Torre - 3 Beds, 1 Bath</item>
     </string-array>
+	
+	<string-array name="num_bed">
+		<item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+		<item>9</item>
+	</string-array>
+	
+	<string-array name="num_bath">
+		<item>1</item>
+        <item>2</item>
+        <item>3</item>
+	</string-array>
+	
+	<string-array name="room_gen">
+		<item>Males only</item>
+		<item>Females only</item>
+		<item>Mixed</item>
+	</string-array>
 </resources>

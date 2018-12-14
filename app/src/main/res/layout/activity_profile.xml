@@ -6,4 +6,141 @@
     android:layout_height="match_parent"
     tools:context=".ProfileActivity">
 
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="37dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/findRoomiebtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Find A Roomie" />
+
+            <Button
+                android:id="@+id/postRoombtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onClick"
+                android:text="Post Room" />
+
+            <Button
+                android:id="@+id/myProfilebtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="My Profile" />
+
+            <Button
+                android:id="@+id/logoutBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Log out" />
+
+        </TableRow>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="369dp"
+        android:layout_height="295dp"
+        android:layout_marginTop="-1dp"
+        android:layout_marginBottom="830dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.408">
+
+        <TextView
+            android:id="@+id/textViewUserEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:text="Welcome, CL!"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/studentName"
+            android:layout_width="match_parent"
+            android:layout_height="18dp"
+            android:text="FULL STUDENT NAME" />
+
+        <TextView
+            android:id="@+id/contactNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CONTACT DETAILS" />
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="USER'S EMAIL" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="206dp"
+        android:layout_marginBottom="500dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        tools:layout_editor_absoluteX="0dp">
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Room Preferences"
+            android:textAlignment="center"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/roomPreference"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ROOM PREFERENCES HERE" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="379dp"
+        android:layout_height="246dp"
+        android:layout_marginBottom="200dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        tools:layout_editor_absoluteX="3dp">
+
+        <TextView
+            android:id="@+id/textview16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:text="Wishlists"
+            android:textAlignment="center"
+            android:textStyle="italic" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/roomWishlist"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
 </android.support.constraint.ConstraintLayout>

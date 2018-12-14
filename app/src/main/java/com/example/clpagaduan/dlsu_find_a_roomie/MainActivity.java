@@ -10,7 +10,7 @@ import android.widget.TextView;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+public class MainActivity extends AppCompatActivity {
 
     Button findRoomiebtn;
     Button postRoombtn;
@@ -41,12 +41,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 //        textViewUserEmail = findViewById(R.id.textViewUserEmail);
 //        textViewUserEmail.setText("Welcome " + user.getEmail());
 
-        buttonLogout = findViewById(R.id.buttonLogout);
-        buttonLogout.setOnClickListener(this);
-
-        findRoomiebtn = findViewById(R.id.findRoomiebtn);
-        postRoombtn = findViewById(R.id.postRoombtn);
-        myProfilebtn = findViewById(R.id.myProfilebtn);
+//        buttonLogout = findViewById(R.id.buttonLogout);
+//        buttonLogout.setOnClickListener(this);
+//
+//        findRoomiebtn = findViewById(R.id.findRoomiebtn);
+//        postRoombtn = findViewById(R.id.postRoombtn);
+//        myProfilebtn = findViewById(R.id.myProfilebtn);
 
 //        findRoomiebtn.setOnClickListener(new View.OnClickListener() {
 //            public void onClick(View v) {
@@ -70,12 +70,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 //        });
     }
 
-    @Override
-    public void onClick(View view){
-        if (view==buttonLogout){
-            firebaseAuth.signOut();
-            finish();
-            startActivity(new Intent(this, login.class));
-        }
-    }
+//    @Override
+//    public void onClick(View view){
+//        if (view==buttonLogout){
+//            firebaseAuth.signOut();
+//            finish();
+//            startActivity(new Intent(this, login.class));
+//        }
+//    }
 }
