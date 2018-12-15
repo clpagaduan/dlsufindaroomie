@@ -44,6 +44,7 @@ public class SignUp_page extends AppCompatActivity {
     Button btn_foggy;
     TextView txt_condition;
 
+    DatabaseReference databaseAddUser;
     private ProgressDialog progressDialog;
     private FirebaseAuth fireBaseAuth;
 
@@ -59,21 +60,22 @@ public class SignUp_page extends AppCompatActivity {
         fireBaseAuth = FirebaseAuth.getInstance();
 
         progressDialog = new ProgressDialog(this);
+        databaseAddUser = FirebaseDatabase.getInstance().getReference("Users");
 
         lastName = findViewById(R.id.lastName);
         firstName = findViewById(R.id.firstName);
         gender = findViewById(R.id.gender);
         email = findViewById(R.id.email);
-        username = findViewById(R.id.username);
+//        username = findViewById(R.id.username);
         password = findViewById(R.id.password);
         backbtn = findViewById(R.id.backbtn);
         submitbtn = findViewById(R.id.submitbtn);
 
-        test_btn = findViewById(R.id.test_btn);
+//        test_btn = findViewById(R.id.test_btn);
 
-        btn_foggy = findViewById(R.id.btn_foggy);
-        btn_sunny = findViewById(R.id.btn_sunny);
-        txt_condition = findViewById(R.id.conditionTxt);
+//        btn_foggy = findViewById(R.id.btn_foggy);
+//        btn_sunny = findViewById(R.id.btn_sunny);
+//        txt_condition = findViewById(R.id.conditionTxt);
 
 
 
@@ -97,6 +99,11 @@ public class SignUp_page extends AppCompatActivity {
     private void registerUser(){
         String emailStr = email.getText().toString().trim();
         String passwordStr = password.getText().toString().trim();
+
+        String str_lastname = lastName.getText().toString().trim();
+        String str_firstname = firstName.getText().toString().trim();
+        String str_gender = gender.getText().toString().trim();
+//        String str_email = lastName.getText().toString().trim();
 
         if (TextUtils.isEmpty(emailStr)){
             Toast.makeText(this, "Please enter email", Toast.LENGTH_SHORT).show();
@@ -126,6 +133,9 @@ public class SignUp_page extends AppCompatActivity {
                 }
             });
 
+        String id = databaseAddUser.push().getKey();
+        User user = new User(id, str_lastname, str_firstname, str_gender, emailStr);
+        databaseAddUser.child(id).setValue(user);
     }
 
 //    @Override

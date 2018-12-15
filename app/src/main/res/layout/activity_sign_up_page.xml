@@ -16,16 +16,16 @@
             android:layout_height="match_parent"
             android:layout_weight="1">
 
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" >
+            <!--<TableRow-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent" >-->
 
-                <Button
-                    android:id="@+id/test_btn"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="TEST" />
-            </TableRow>
+                <!--<Button-->
+                    <!--android:id="@+id/test_btn"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="TEST" />-->
+            <!--</TableRow>-->
 
             <TableRow
                 android:layout_width="match_parent"
@@ -126,19 +126,19 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" >
 
-                <TextView
-                    android:id="@+id/usernametxt"
-                    android:layout_width="wrap_content"
-                    android:layout_height="33dp"
-                    android:text="Username:"
-                    android:textAlignment="center" />
+                <!--<TextView-->
+                    <!--android:id="@+id/usernametxt"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="33dp"-->
+                    <!--android:text="Username:"-->
+                    <!--android:textAlignment="center" />-->
 
-                <EditText
-                    android:id="@+id/username"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:ems="10"
-                    android:inputType="textPersonName" />
+                <!--<EditText-->
+                    <!--android:id="@+id/username"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:ems="10"-->
+                    <!--android:inputType="textPersonName" />-->
             </TableRow>
 
             <TableRow
@@ -178,33 +178,33 @@
 
             </TableRow>
 
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" >
+            <!--<TableRow-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent" >-->
 
-                <TextView
-                    android:id="@+id/conditionTxt"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Condition" />
-            </TableRow>
+                <!--<TextView-->
+                    <!--android:id="@+id/conditionTxt"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="Condition" />-->
+            <!--</TableRow>-->
 
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" >
+            <!--<TableRow-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent" >-->
 
-                <Button
-                    android:id="@+id/btn_sunny"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Sunny" />
+                <!--<Button-->
+                    <!--android:id="@+id/btn_sunny"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="Sunny" />-->
 
-                <Button
-                    android:id="@+id/btn_foggy"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Foggy" />
-            </TableRow>
+                <!--<Button-->
+                    <!--android:id="@+id/btn_foggy"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="Foggy" />-->
+            <!--</TableRow>-->
         </TableLayout>
 
     </LinearLayout>

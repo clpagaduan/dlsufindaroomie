@@ -33,6 +33,13 @@ import java.util.List;
 
 
 public class findRoomie extends AppCompatActivity {
+    public static final String ROOM_NAME = "Room name";
+    public static final String ROOM_ID = "Room ID";
+    public static final String ROOM_RENT = "Room Rent";
+    public static final String ROOM_BED = "Room Bed";
+    public static final String ROOM_BATH = "Room Bath";
+    public static final String ROOM_GEN = "Room Gen";
+    public static final String ROOM_STATUS = "Room Rent";
 
     Button findRoomiebtn;
     Button postRoombtn;
@@ -59,22 +66,27 @@ public class findRoomie extends AppCompatActivity {
         myProfilebtn = findViewById(R.id.myProfilebtn);
 
         listViewRoom = findViewById(R.id.listViewRoom);
-        listViewRoom.setOnItemClickListener(
-                new OnItemClickListener() {
-                    @Override
-                    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                        System.out.println("Position: " + position + " ID: " + id);
-//                        startActivity(new Intent(getApplicationContext(), bookRoom.class));
-//                        Intent intent = new Intent(getApplicationContext(), bookRoom.class);
-//                        intent.setClass(this, bookRoom.class);
-//                        intent.putExtra("position", position);
-//                        intent.putExtra("id", id);
-//                        findRoomie.this.startActivity(intent);
-                    }
-                }
-        );
 
         roomList = new ArrayList<>();
+
+        listViewRoom.setOnItemClickListener(new AdapterView.OnItemClickListener(){
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l){
+                Room room = roomList.get(i);
+                Intent intent = new Intent(getApplicationContext(), AddTenant.class);
+
+                intent.putExtra(ROOM_ID, room.getRoomID());
+                intent.putExtra(ROOM_NAME, room.getRoomName());
+                intent.putExtra(ROOM_RENT, room.getRoomRent());
+                intent.putExtra(ROOM_BED, room.getRoomBed());
+                intent.putExtra(ROOM_BATH, room.getRoomBath());
+                intent.putExtra(ROOM_GEN, room.getRoomGen());
+
+                startActivity(intent);
+            }
+        });
+
+
 
         findRoomiebtn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {

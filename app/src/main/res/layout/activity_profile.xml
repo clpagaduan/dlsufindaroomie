@@ -73,19 +73,19 @@
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/studentName"
+            android:id="@+id/view_name"
             android:layout_width="match_parent"
             android:layout_height="18dp"
             android:text="FULL STUDENT NAME" />
 
         <TextView
-            android:id="@+id/contactNumber"
+            android:id="@+id/view_gen"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="CONTACT DETAILS" />
+            android:text="Sex" />
 
         <TextView
-            android:id="@+id/email"
+            android:id="@+id/view_email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="USER'S EMAIL" />
