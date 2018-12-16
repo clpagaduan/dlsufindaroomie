@@ -6,10 +6,13 @@
 
     <TextView
         android:id="@+id/textViewName"
-        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:fontFamily="serif-monospace"
+        android:text="TextView"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textColor="@android:color/holo_green_dark"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textViewRent"
