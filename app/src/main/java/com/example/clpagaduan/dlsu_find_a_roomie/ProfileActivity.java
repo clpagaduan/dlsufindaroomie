@@ -63,7 +63,7 @@ public class ProfileActivity extends AppCompatActivity implements View.OnClickLi
 
                 for(DataSnapshot userSnapshot: dataSnapshot.getChildren()){
                     User user = userSnapshot.getValue(User.class);
-
+                    //NOT YET WORKING. FIX THIS
                     String lname = user.lname;
                     String fname = user.fname;
                     String gen   = user.gen;
