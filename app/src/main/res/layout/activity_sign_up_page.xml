@@ -27,6 +27,7 @@
                     <!--android:text="TEST" />-->
             <!--</TableRow>-->
 
+
             <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" >
@@ -36,8 +37,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="52dp"
                     android:layout_weight="1"
+                    android:fontFamily="serif-monospace"
                     android:text="Sign Up Page"
-                    android:textStyle="bold"
+                    android:textAllCaps="true"
                     tools:textSize="24sp" />
             </TableRow>
 
@@ -49,8 +51,11 @@
                     android:id="@+id/lnametxt"
                     android:layout_width="77dp"
                     android:layout_height="29dp"
+                    android:fontFamily="serif-monospace"
                     android:text="Last Name:"
-                    android:textAlignment="center" />
+                    android:textAlignment="center"
+                    android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                    android:textStyle="bold" />
 
                 <EditText
                     android:id="@+id/lastName"
@@ -70,8 +75,11 @@
                     android:id="@+id/fnametxt"
                     android:layout_width="77dp"
                     android:layout_height="29dp"
+                    android:fontFamily="serif-monospace"
                     android:text="First Name:"
-                    android:textAlignment="center" />
+                    android:textAlignment="center"
+                    android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                    android:textStyle="bold" />
 
                 <EditText
                     android:id="@+id/firstName"
@@ -91,8 +99,11 @@
                     android:id="@+id/gendertxt"
                     android:layout_width="77dp"
                     android:layout_height="29dp"
+                    android:fontFamily="serif-monospace"
                     android:text="Gender:"
-                    android:textAlignment="center" />
+                    android:textAlignment="center"
+                    android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                    android:textStyle="bold" />
 
                 <EditText
                     android:id="@+id/gender"
@@ -111,8 +122,11 @@
                     android:id="@+id/emailtxt"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:fontFamily="serif-monospace"
                     android:text="Email:"
-                    android:textAlignment="center" />
+                    android:textAlignment="center"
+                    android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                    android:textStyle="bold" />
 
                 <EditText
                     android:id="@+id/email"
@@ -127,18 +141,18 @@
                 android:layout_height="match_parent" >
 
                 <!--<TextView-->
-                    <!--android:id="@+id/usernametxt"-->
-                    <!--android:layout_width="wrap_content"-->
-                    <!--android:layout_height="33dp"-->
-                    <!--android:text="Username:"-->
-                    <!--android:textAlignment="center" />-->
+                <!--android:id="@+id/usernametxt"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="33dp"-->
+                <!--android:text="Username:"-->
+                <!--android:textAlignment="center" />-->
 
                 <!--<EditText-->
-                    <!--android:id="@+id/username"-->
-                    <!--android:layout_width="wrap_content"-->
-                    <!--android:layout_height="wrap_content"-->
-                    <!--android:ems="10"-->
-                    <!--android:inputType="textPersonName" />-->
+                <!--android:id="@+id/username"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:ems="10"-->
+                <!--android:inputType="textPersonName" />-->
             </TableRow>
 
             <TableRow
@@ -149,8 +163,11 @@
                     android:id="@+id/passwordtxt"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:fontFamily="serif-monospace"
                     android:text="Password:"
-                    android:textAlignment="center" />
+                    android:textAlignment="center"
+                    android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                    android:textStyle="bold" />
 
                 <EditText
                     android:id="@+id/password"
@@ -168,12 +185,16 @@
                     android:id="@+id/backbtn"
                     android:layout_width="114dp"
                     android:layout_height="wrap_content"
-                    android:text="Back" />
+                    android:background="@android:color/holo_green_light"
+                    android:fontFamily="serif-monospace"
+                    android:text="Back"
+                    android:textStyle="bold" />
 
                 <Button
                     android:id="@+id/submitbtn"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:background="@android:color/holo_green_dark"
                     android:text="Submit" />
 
             </TableRow>

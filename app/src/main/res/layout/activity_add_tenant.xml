@@ -11,8 +11,11 @@
         android:id="@+id/textViewRoomName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:fontFamily="serif-monospace"
         android:text="POST ROOM NAME"
-        android:textSize="24sp" />
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="24sp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textViewRent"
@@ -54,13 +57,19 @@
         android:id="@+id/btn_reserve"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Reserve" />
+        android:background="@android:color/holo_green_dark"
+        android:fontFamily="serif-monospace"
+        android:text="Reserve"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView11"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="List of Reservations" />
+        android:fontFamily="serif-monospace"
+        android:text="List of Reservations"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textStyle="bold" />
 
     <ListView
         android:id="@+id/listViewTenants"

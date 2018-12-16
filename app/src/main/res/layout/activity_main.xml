@@ -22,25 +22,38 @@
                 android:id="@+id/findRoomiebtn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Find A Roomie" />
+                android:background="@color/common_google_signin_btn_text_dark_default"
+                android:text="Find A Roomie"
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="bold"/>
 
             <Button
                 android:id="@+id/postRoombtn"
-                android:layout_width="wrap_content"
+                android:layout_width="90dp"
                 android:layout_height="wrap_content"
-                android:text="Post Room" />
+                android:background="@color/common_google_signin_btn_text_dark_default"
+                android:text="Post Room"
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="bold"/>
 
             <Button
                 android:id="@+id/myProfilebtn"
-                android:layout_width="wrap_content"
+                android:layout_width="90dp"
                 android:layout_height="wrap_content"
-                android:text="My Profile" />
+                android:background="@color/common_google_signin_btn_text_dark_default"
+                android:text="My Profile"
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="bold"/>
 
             <Button
                 android:id="@+id/buttonLogout"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Log out" />
+                android:layout_width="111dp"
+                android:layout_height="22dp"
+                android:background="@color/common_google_signin_btn_text_dark_focused"
+                android:text="Log out"
+                android:textColor="@color/common_google_signin_btn_text_dark_default"
+                android:textSize="12sp"
+                android:textStyle="italic"  />
 
         </TableRow>
 
@@ -66,7 +79,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="casual"
-            android:text="LANDING PAGE"
+            android:text="Welcome!"
             android:textAlignment="center"
             android:textSize="18sp"
             android:textStyle="bold" />

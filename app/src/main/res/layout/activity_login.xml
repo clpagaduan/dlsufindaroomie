@@ -11,7 +11,11 @@
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Username" />
+        android:fontFamily="serif-monospace"
+        android:text="Username"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/holo_green_dark"
+        android:textStyle="bold"  />
 
     <EditText
         android:id="@+id/input_username"
@@ -24,7 +28,10 @@
         android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Password" />
+        android:fontFamily="serif-monospace"
+        android:text="Password"
+        android:textColor="@android:color/holo_green_dark"
+        android:textStyle="bold" />
 
     <EditText
         android:id="@+id/input_password"
@@ -37,11 +44,21 @@
         android:id="@+id/btn_login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Login" />
+        android:background="@android:color/holo_green_light"
+        android:fontFamily="serif-monospace"
+        android:text="Login"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textColorHighlight="@color/common_google_signin_btn_text_dark_focused"
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/btn_signup"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Signup" />
+        android:background="@android:color/holo_green_dark"
+        android:fontFamily="serif-monospace"
+        android:text="Signup"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textColorHighlight="@color/common_google_signin_btn_text_dark_focused"
+        android:textStyle="bold"  />
 </LinearLayout>

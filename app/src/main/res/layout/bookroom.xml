@@ -11,7 +11,6 @@
         android:orientation="vertical"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="0dp">
-
         <TextView
             android:id="@+id/condoName"
             android:layout_width="match_parent"
@@ -63,7 +62,11 @@
             android:id="@+id/bookRoombtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="BOOK ROOM" />
+            android:background="@android:color/holo_green_dark"
+            android:fontFamily="serif-monospace"
+            android:text="BOOK ROOM"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView9"
@@ -81,7 +84,10 @@
             android:id="@+id/addWishlistbtn"
             android:layout_width="164dp"
             android:layout_height="wrap_content"
-            android:text="Add to Wishlist" />
+            android:background="@android:color/holo_green_dark"
+            android:fontFamily="serif-monospace"
+            android:text="Add to Wishlist"
+            android:textStyle="bold" />
 
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
